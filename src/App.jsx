@@ -8,6 +8,7 @@ import Data from './Data';
 import Cplus from './Cplus';
 import Navbar from './Navbar';
 import PersonalChatPage from './PersonalChatPage';
+import Footer from './Footer';
 import './App.css';
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
         <Route path="/Web" element={<Web />} />
         <Route path="/personal-chat" element={<PersonalChatPage />} />
       </Routes>
+      <Footer />
+   
+
     </>
   );
 }
