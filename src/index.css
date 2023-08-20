@@ -1,0 +1,378 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.brand-name{
+  color:#f877a4 !important
+
+}
+
+.card {
+  background-color: #eacfcf;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transform: translateX(0);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card:focus-within {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.02);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  transition: color 0.3s ease;
+}
+
+.card:hover .card-title {
+  color: #f877a4;
+}
+
+.card-text {
+  margin-top: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.card:hover .card-text {
+  color: #333;
+}
+
+.btn-get-started {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #d6eddd;
+  text-decoration: none;
+  border: none;
+  background-color: #f877a4;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-get-started span {
+  position: absolute;
+  display: block;
+  background-color: #e4164a;
+  transform: scale(0);
+  animation: expand 1s infinite cubic-bezier(0.57, 0.01, 0.51, 0.88);
+}
+
+.btn-get-started span:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  top: 0;
+  left: 0;
+  animation-delay: 0s;
+}
+
+.cbtn-get-started span:nth-child(2) {
+  width: 2px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  animation-delay: 0.25s;
+}
+
+.btn-get-started span:nth-child(3) {
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  animation-delay: 0.5s;
+}
+
+.btn-get-started span:nth-child(4) {
+  width: 2px;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  animation-delay: 0.75s;
+}
+
+@keyframes expand {
+  0%,
+  100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(2);
+  }
+}
+
+
+/* ... Your existing CSS ... */
+
+.main-thought {
+  font-size: 1.25rem;
+  color: #f877a4;
+}
+
+.reply-thought {
+  font-size: 1rem;
+  color: #34c759;
+}
+
+/* ... Your existing CSS ... */
+/* ... Your existing CSS ... */
+
+.main-thought {
+  font-size: 1.25rem;
+  color: #f877a4;
+}
+
+.reply-thought {
+  font-size: 1rem;
+  color: #34c759;
+}
+
+.user-info {
+  font-size: 1rem;
+  color: #007bff;
+}
+
+.login {
+  margin: auto;
+  max-width: 300px;
+}
+
+/* ... Your existing CSS ... */
+
+.profile-image {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+
+
+.navbar-nav li.nav-item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav li.nav-item:hover {
+  transform: translateY(-2px);
+}
+
+.navbar-nav li.nav-item a.nav-link {
+  position: relative;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav li.nav-item a.nav-link:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #f877a4;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav li.nav-item a.nav-link:hover {
+  color: #f877a4;
+}
+
+.navbar-nav li.nav-item a.nav-link:hover:before {
+  transform: scaleX(1);
+}
+
+
+
+
+
+/* Add these styles to your index.css */
+
+/* Chat Box */
+.chat-box {
+  margin-top: 10px;
+}
+
+.chat-box input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Private Messages */
+.private-message {
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.private-message .pm-sender {
+  font-weight: bold;
+}
+
+.private-message .pm-text {
+  margin-top: 5px;
+}
+
+
+
+
+
+/* PersonalChatPage.css */
+
+/* PersonalChatPage.css */
+
+.personal-chat-page {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 200px;
+}
+
+.user-list li {
+  cursor: pointer;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+.user-list li:hover {
+  background-color: #eaeaea;
+}
+
+.private-chat {
+  flex: 1;
+  margin-left: 20px;
+  background-color: #ffcccc; /* Pink background color */
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.private-chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background-color: #ffd4d4; /* Light pink header background color */
+  border-bottom: 1px solid #ccc;
+}
+
+.private-chat-title {
+  margin: 0;
+  color: #ff4d4d; /* Dark pink text color */
+}
+
+.private-chat-back {
+  background-color: #ffb3b3; /* Light pink button background color */
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff; /* White text color */
+}
+
+.private-chat-back:hover {
+  background-color: #ff8080; /* Darker pink on hover */
+}
+
+.private-chat-messages {
+  padding: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.private-chat-message {
+  margin-bottom: 12px;
+}
+
+.private-chat-sender {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.private-chat-text {
+  margin: 0;
+}
+
+.private-chat-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  border-top: 1px solid #ccc;
+}
+
+.private-chat-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.private-chat-send {
+  background-color: #ff4d4d; /* Dark pink button background color */
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.private-chat-send:hover {
+  background-color: #ff1a1a; /* Darker pink on hover */
+}
+
+
+.reply-button {
+  margin-left: 20px; /* Adjust the margin value as needed */
+}
+
+.private-chat {
+  margin-left: 20px; /* Adjust the margin value as needed */
+}
