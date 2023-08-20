@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React-Multipurpose-Website/static/css/main.4d5ccd8c.css",
-    "main.js": "/React-Multipurpose-Website/static/js/main.abde035b.js",
-    "static/js/787.611d1b7c.chunk.js": "/React-Multipurpose-Website/static/js/787.611d1b7c.chunk.js",
-    "static/media/ac.png": "/React-Multipurpose-Website/static/media/ac.9224fed87e66444fdaf3.png",
-    "index.html": "/React-Multipurpose-Website/index.html",
-    "main.4d5ccd8c.css.map": "/React-Multipurpose-Website/static/css/main.4d5ccd8c.css.map",
-    "main.abde035b.js.map": "/React-Multipurpose-Website/static/js/main.abde035b.js.map",
-    "787.611d1b7c.chunk.js.map": "/React-Multipurpose-Website/static/js/787.611d1b7c.chunk.js.map"
+    "main.css": "/React-Multipurposefunctionality-Website/static/css/main.4d5ccd8c.css",
+    "main.js": "/React-Multipurposefunctionality-Website/static/js/main.8a1903e2.js",
+    "static/js/787.611d1b7c.chunk.js": "/React-Multipurposefunctionality-Website/static/js/787.611d1b7c.chunk.js",
+    "static/media/ac.png": "/React-Multipurposefunctionality-Website/static/media/ac.9224fed87e66444fdaf3.png",
+    "index.html": "/React-Multipurposefunctionality-Website/index.html",
+    "main.4d5ccd8c.css.map": "/React-Multipurposefunctionality-Website/static/css/main.4d5ccd8c.css.map",
+    "main.8a1903e2.js.map": "/React-Multipurposefunctionality-Website/static/js/main.8a1903e2.js.map",
+    "787.611d1b7c.chunk.js.map": "/React-Multipurposefunctionality-Website/static/js/787.611d1b7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d5ccd8c.css",
-    "static/js/main.abde035b.js"
+    "static/js/main.8a1903e2.js"
   ]
 }
